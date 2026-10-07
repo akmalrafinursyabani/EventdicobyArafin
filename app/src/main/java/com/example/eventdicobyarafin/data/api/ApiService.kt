@@ -1,0 +1,25 @@
+package com.example.eventdicobyarafin.data.api
+
+import retrofit2.Call
+import retrofit2.http.GET
+import retrofit2.http.Path
+import retrofit2.http.Query
+
+interface ApiService {
+    @GET("events")
+    fun getEvents(
+        @Query("active") active: Int,
+        @Query("limit") limit: Int
+    ): Call<EventResponse>
+
+    @GET("events")
+    fun searchEvents(
+        @Query("active") active: Int = -1,
+        @Query("query") query: String
+    ): Call<EventResponse>
+
+    @GET("events/{id}")
+    fun getEventById(
+        @Path("id") id: Int
+    ): Call<EventResponse>
+}
