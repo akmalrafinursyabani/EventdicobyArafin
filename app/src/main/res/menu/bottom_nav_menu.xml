@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ID harus match dengan id frags di nav_graph-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/nav_home"
+        android:icon="@drawable/ic_event_home_24"
+        android:title="@string/navbar_home" />
+    <item
+        android:id="@id/nav_upcoming"
+        android:icon="@drawable/ic_event_upcoming_24"
+        android:title="@string/navbar_upcoming" />
+    <item
+        android:id="@id/nav_finished"
+        android:icon="@drawable/ic_event_finished_24"
+        android:title="@string/navbar_finished" />
+</menu>

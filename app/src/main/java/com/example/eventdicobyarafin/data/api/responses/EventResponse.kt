@@ -1,4 +1,4 @@
-package com.example.eventdicobyarafin.data.api
+package com.example.eventdicobyarafin.data.api.responses
 
 import com.squareup.moshi.Json
 

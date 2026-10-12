@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Eventdico by Arafin</string>
+    <string name="navbar_home">Home</string>
+    <string name="navbar_upcoming">Upcoming</string>
+    <string name="navbar_finished">Finished</string>
 </resources>
