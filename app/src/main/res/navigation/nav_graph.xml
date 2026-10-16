@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@id/nav_home"
-        android:name=""
+        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.HomeFragment"
         android:label="Home"
         tools:layout="" />
     <fragment
         android:id="@id/nav_upcoming"
-        android:name=""
+        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.UpcomingFragment"
         android:label="Mendatang"
         tools:layout="" />
     <fragment
         android:id="@id/nav_finished"
-        android:name=""
+        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.FinishedFragment"
         android:label="Selesai"
         tools:layout="" />
 
