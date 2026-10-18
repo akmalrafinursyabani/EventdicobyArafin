@@ -7,18 +7,18 @@
 
     <fragment
         android:id="@id/nav_home"
-        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.HomeFragment"
+        android:name="com.example.eventdicobyarafin.ui.fragments.HomeFragment"
         android:label="Home"
-        tools:layout="" />
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@id/nav_upcoming"
-        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.UpcomingFragment"
+        android:name="com.example.eventdicobyarafin.ui.fragments.UpcomingFragment"
         android:label="Mendatang"
-        tools:layout="" />
+        tools:layout="@layout/fragment_upcoming" />
     <fragment
         android:id="@id/nav_finished"
-        android:name="com.example.eventdicobyarafin.fragments.ui.fragments.FinishedFragment"
+        android:name="com.example.eventdicobyarafin.ui.fragments.FinishedFragment"
         android:label="Selesai"
-        tools:layout="" />
+        tools:layout="@layout/fragment_finished" />
 
 </navigation>

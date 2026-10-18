@@ -4,6 +4,9 @@ import com.squareup.moshi.Json
 
 data class EventResponse(
 
+	@Json(name="event")
+	val event: ListEventsItem? = null,
+
 	@Json(name="listEvents")
 	val listEvents: List<ListEventsItem>? = null,
 

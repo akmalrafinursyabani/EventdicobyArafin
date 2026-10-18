@@ -3,7 +3,17 @@
     <string name="navbar_home">Home</string>
     <string name="navbar_upcoming">Upcoming</string>
     <string name="navbar_finished">Finished</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="event_photo">Foto dari event</string>
+    <string name="app_title">Eventdico - Dicoding Events</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="finished_event">Event Selesai</string>
+    <string name="search_finished_event">Cari event sudah selesai...</string>
+    <string name="open_event_link">Buka Link Event</string>
+    <string name="quota_remaining">Sisa Kuota: %1$d</string>
+    <string name="organizer">Penyelenggara: %1$s</string>
+    <string name="schedule">Waktu: %1$s - %2$s</string>
+    <string name="error_network">Gagal terhubung ke internet. Periksa koneksi Anda.</string>
+    <string name="error_generic">Terjadi kesalahan: %1$s</string>
+    <string name="category">Kategori: %1$s</string>
+    <string name="no_events_found">Tidak ada event ditemukan.</string>
 </resources>

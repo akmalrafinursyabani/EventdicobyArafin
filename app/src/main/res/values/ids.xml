@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="nav_home" type="id">nav_home</item>
-    <item name="nav_upcoming" type="id">nav_upcoming</item>
-    <item name="nav_finished" type="id">nav_finished</item>
-    <item name="nav_graph" type="id">nav_graph</item>
+    <item name="nav_home" type="id" />
+    <item name="nav_upcoming" type="id" />
+    <item name="nav_finished" type="id" />
+    <item name="nav_graph" type="id" />
 </resources>
